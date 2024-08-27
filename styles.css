@@ -1,0 +1,177 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #e0b2d6, #e5e7cf);
+    color: #333;
+}
+
+.header {
+    padding: 20px 40px;
+    background-color: #FFF5E1;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.sign-in, .sign-up {
+    background-color: transparent;
+    border: 2px solid #F3C1C6;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.sign-in:hover, .sign-up:hover {
+    background-color: #F3C1C6;
+}
+
+.sign-up {
+    background-color: #FFE7D1;
+    border-color: #FFE7D1;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px;
+}
+
+.info-section {
+    max-width: 50%;
+}
+
+.info-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.info-section p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.get-started {
+    background-color: #eca4fa;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.get-started:hover {
+    background-color: #ba70ff;
+}
+
+.transfer-section {
+    max-width: 40%;
+}
+
+.transfer-box {
+    background-color: #FFF9F0;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.transfer-box h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.transfer-box p {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    width: 70%;
+    padding: 10px;
+    border: 2px solid #E3E3E3;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.custom-select {
+    position: relative;
+    width: 25%;
+}
+
+.custom-select select {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #E3E3E3;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #FFF;
+    appearance: none;
+    background: url('picture/indo-flag.png') no-repeat 10px center / 20px 20px, linear-gradient(to bottom, #FFF, #F9F9F9);
+    padding-left: 40px;
+}
+
+
+.yen-select select {
+    background: url('picture/japan-flag.png') no-repeat 10px center / 20px 20px, linear-gradient(to bottom, #FFF, #F9F9F9);
+    padding-left: 40px; 
+}
+
+.detail-bayar {
+    margin-bottom: 20px;
+}
+
+.detail-bayar p {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    color: #777;
+}
+
+.detail-bayar span {
+    font-weight: bold;
+}
+
+.recipient p {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.get-started {
+    width: 100%;
+    padding: 15px;
+}
